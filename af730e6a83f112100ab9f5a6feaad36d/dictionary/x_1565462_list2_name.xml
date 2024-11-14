@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4df80262833512100ab9f5a6feaad32c" label="name" max_length="40" name="x_1565462_list2_name" type="collection">
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element display="true" label="URL" max_length="1024" name="url" type="url"/>
+    </element>
+</database>
