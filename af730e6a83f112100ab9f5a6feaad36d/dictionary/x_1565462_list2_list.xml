@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="edd34eaa83f112100ab9f5a6feaad394" label="list" max_length="40" name="x_1565462_list2_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Happy" mandatory="true" max_length="123" name="happy" type="string"/>
+        <element attributes="encode_utf8=false" label="Sad" mandatory="true" max_length="32" name="sad" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="sad"/>
+        </index>
+    </element>
+</database>
